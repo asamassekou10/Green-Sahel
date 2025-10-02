@@ -133,53 +133,64 @@
                 <div class="tree tree-2"></div>
                 <div class="tree tree-3"></div>
             </div>
+
             <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" fill="#A5A58D" opacity="0.3"/>
-                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" fill="#6B705C" opacity="0.2"/>
+                <!-- Top area -->
+                <rect width="1200" height="40" fill="#f3f5f3"></rect>
+                
+                <!-- Middle green curve (grass/land) -->
+                <path d="M0,40 C300,80 900,0 1200,40 L1200,80 L0,80 Z" fill="#2E7D32"/>
+                
+                <!-- Bottom area -->
+                <rect y="80" width="1200" height="40" fill="#d0cab5"></rect>
             </svg>
         </div>
+
+
         
-        <section id="projects" class="projects-section container animate-on-scroll">
-            <h2>Our Projects</h2>
-            <p class="section-subtitle">From seed to sustainability, witness the impact of our work.</p>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <img src="GGW.jpg" alt="Project 1">
-                    <div class="card-content">
-                        <h3>The Great Green Wall Initiative</h3>
-                        <p>Our contribution to planting a wall of trees across the Sahel to reverse desertification and create jobs.</p>
-                        <a href="#" class="learn-more-btn" 
-                           data-title="The Great Green Wall Initiative"
-                           data-image="GGW.jpg"
-                           data-description="The Great Green Wall Initiative is Africa's flagship program to combat desertification, drought, and climate change. Green Sahel is proud to be a key partner in this ambitious project that spans across 11 countries in the Sahel region."
-                           data-details='["Planting over 100,000 trees annually", "Training 500+ local farmers in sustainable practices", "Creating 2,000+ green jobs in rural communities", "Establishing 15 nurseries across the region", "Partnering with 50+ local communities"]'
-                           data-impact="Since 2020, we've successfully planted over 400,000 trees, created 2,000+ sustainable jobs, and trained over 1,500 farmers. Our efforts have resulted in 15% increase in local biodiversity and 30% reduction in soil erosion in project areas.">Learn More &rarr;</a>
+        <section id="projects" class="projects-section animate-on-scroll">
+            <div class="container">
+                <h2>Our Projects</h2>
+                <p class="section-subtitle">From seed to sustainability, witness the impact of our work.</p>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="GGW.jpg" alt="Project 1">
+                        <div class="card-content">
+                            <h3>The Great Green Wall Initiative</h3>
+                            <p>Our contribution to planting a wall of trees across the Sahel to reverse desertification and create jobs.</p>
+                            <a href="#" class="learn-more-btn" 
+                            data-title="The Great Green Wall Initiative"
+                            data-image="GGW.jpg"
+                            data-description="The Great Green Wall Initiative is Africa's flagship program to combat desertification, drought, and climate change. Green Sahel is proud to be a key partner in this ambitious project that spans across 11 countries in the Sahel region."
+                            data-details='["Planting over 100,000 trees annually", "Training 500+ local farmers in sustainable practices", "Creating 2,000+ green jobs in rural communities", "Establishing 15 nurseries across the region", "Partnering with 50+ local communities"]'
+                            data-impact="Since 2020, we've successfully planted over 400,000 trees, created 2,000+ sustainable jobs, and trained over 1,500 farmers. Our efforts have resulted in 15% increase in local biodiversity and 30% reduction in soil erosion in project areas.">Learn More &rarr;</a>
+                        </div>
                     </div>
-                </div>
-                <div class="project-card">
-                    <img src="drip irrigation.webp" alt="Project 2">
-                    <div class="card-content">
-                        <h3>Drip Irrigation</h3>
-                        <p>Introducing water-saving technology to increase crop yields for over 500 farming families.</p>
-                        <a href="#" class="learn-more-btn"
-                           data-title="Drip Irrigation"
-                           data-image="drip irrigation.webp"
-                           data-description="Our drip irrigation project in Matam, Senegal, revolutionizes agricultural practices in water-scarce regions. By implementing precision irrigation systems, we're helping local farmers maximize crop yields while conserving precious water resources."
-                           data-details='["Installing drip irrigation systems for 500+ families", "Training farmers in water-efficient techniques", "Reducing water usage by 60% compared to traditional methods", "Increasing crop yields by 40% on average", "Establishing 10 demonstration farms"]'
-                           data-impact="The project has transformed the lives of over 2,000 people in Matam. Farmers report 40% increase in crop yields, 60% reduction in water usage, and 25% increase in annual income. This has led to improved food security and economic stability in the region.">Learn More &rarr;</a>
+                    <div class="project-card">
+                        <img src="drip irrigation.webp" alt="Project 2">
+                        <div class="card-content">
+                            <h3>Drip Irrigation</h3>
+                            <p>Introducing water-saving technology to increase crop yields for over 500 farming families.</p>
+                            <a href="#" class="learn-more-btn"
+                            data-title="Drip Irrigation"
+                            data-image="drip irrigation.webp"
+                            data-description="Our drip irrigation project in Matam, Senegal, revolutionizes agricultural practices in water-scarce regions. By implementing precision irrigation systems, we're helping local farmers maximize crop yields while conserving precious water resources."
+                            data-details='["Installing drip irrigation systems for 500+ families", "Training farmers in water-efficient techniques", "Reducing water usage by 60% compared to traditional methods", "Increasing crop yields by 40% on average", "Establishing 10 demonstration farms"]'
+                            data-impact="The project has transformed the lives of over 2,000 people in Matam. Farmers report 40% increase in crop yields, 60% reduction in water usage, and 25% increase in annual income. This has led to improved food security and economic stability in the region.">Learn More &rarr;</a>
+                        </div>
                     </div>
-                </div>
-                <div class="project-card">
-                    <img src="3-baobab-fruits.jpg" alt="Project 3">
-                    <div class="card-content">
-                        <h3>Women's Cooperative Gardens</h3>
-                        <p>Empowering women through the creation of shared agricultural spaces for economic independence.</p>
-                        <a href="#" class="learn-more-btn"
-                           data-title="Women's Cooperative Gardens"
-                           data-image="3-baobab-fruits.jpg"
-                           data-description="Our Women's Cooperative Gardens initiative empowers women in rural communities by providing them with shared agricultural spaces, training, and resources. This project focuses on gender equality, economic empowerment, and sustainable farming practices."
-                           data-details='["Establishing 25 womens cooperatives", "Training 750+ women in sustainable agriculture", "Providing access to seeds, tools, and irrigation", "Creating market linkages for produce sales", "Offering financial literacy and business training"]'
-                           data-impact="The initiative has empowered over 1,500 women across 25 communities. Participants report 50% increase in household income, improved food security, and enhanced social status within their communities. The project has also led to 80% of participants becoming financially independent.">Learn More &rarr;</a>
+                    <div class="project-card">
+                        <img src="3-baobab-fruits.jpg" alt="Project 3">
+                        <div class="card-content">
+                            <h3>Women's Cooperative Gardens</h3>
+                            <p>Empowering women through the creation of shared agricultural spaces for economic independence.</p>
+                            <a href="#" class="learn-more-btn"
+                            data-title="Women's Cooperative Gardens"
+                            data-image="3-baobab-fruits.jpg"
+                            data-description="Our Women's Cooperative Gardens initiative empowers women in rural communities by providing them with shared agricultural spaces, training, and resources. This project focuses on gender equality, economic empowerment, and sustainable farming practices."
+                            data-details='["Establishing 25 womens cooperatives", "Training 750+ women in sustainable agriculture", "Providing access to seeds, tools, and irrigation", "Creating market linkages for produce sales", "Offering financial literacy and business training"]'
+                            data-impact="The initiative has empowered over 1,500 women across 25 communities. Participants report 50% increase in household income, improved food security, and enhanced social status within their communities. The project has also led to 80% of participants becoming financially independent.">Learn More &rarr;</a>
+                        </div>
                     </div>
                 </div>
             </div>
