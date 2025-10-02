@@ -1,5 +1,21 @@
 document.addEventListener('DOMContentLoaded', () => {
 
+    // --- Hamburger Menu Functionality ---
+    const navToggle = document.querySelector('.nav-toggle');
+    const navMenu = document.querySelector('.nav-menu');
+    const body = document.body;
+
+    navToggle.addEventListener('click', () => {
+        body.classList.toggle('nav-open');
+    });
+
+    // Close menu when a link is clicked
+    navMenu.addEventListener('click', (e) => {
+        if (e.target.tagName === 'A') {
+            body.classList.remove('nav-open');
+        }
+    });
+
     // --- Hide Header on Scroll Down, Show on Scroll Up ---
     const header = document.querySelector('.header');
     let lastScrollY = window.scrollY;
@@ -137,3 +153,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
